@@ -1,4 +1,4 @@
-# Searching-and-Sorting
+# Sorting in C plus plus
 .
 
 # 📌 1. Selection Sort
@@ -70,36 +70,13 @@ Continue until no swaps are needed.
 ## ✅ Conclusion:
 Bubble Sort is simple but highly inefficient for large datasets. It is mainly useful for teaching purposes and understanding sorting concepts, not for real-world applications.
 
-# 📌 4. Linear Search:
 
-## 🎯 Aim:
-To implement Linear Search in C++ and understand its basic mechanism for finding an element in a list.
-
-## 📖 Theory:
-Linear Search is the simplest searching algorithm. It works by sequentially checking each element of the array or list until the desired element is found or the end of the list is reached. It does not require the data to be sorted and is suitable for small or unsorted datasets.
-- Time Complexity:
-- Best Case: O(1) (element found at the beginning)
-- Worst Case: O(n) (element not found or at the end)
-- Average Case: O(n)
-- Space Complexity: O(1)
-- Search Type: Sequential, Unsorted, Non-optimized
-- 
-## ⚙️ Algorithm:
-- Start from the first element of the array.
-- Compare the current element with the target value.
-- If it matches, return the index or indicate success.
-- If not, move to the next element.
-- Repeat steps 2–4 until the end of the array.
-- If no match is found, return failure or -1.
-- 
-## ✅ Conclusion:
-Linear Search is easy to implement and works well for small or unsorted datasets. However, it is inefficient for large datasets due to its linear time complexity. For better performance on large or sorted data, algorithms like Binary Search are preferred.
 
 ## 📝 Final Notes:
-- All four algorithms—Selection Sort, Insertion Sort, Bubble Sort, and Linear Search—are foundational techniques in algorithm design.
+- All four algorithms—Selection Sort, Insertion Sort,and Bubble Sort are foundational techniques in algorithm design.
 - While they are simple and intuitive, they are not optimal for large-scale applications.
-- For sorting, prefer Merge Sort or Quick Sort; for searching, Binary Search or Hashing techniques offer better efficiency.
+- For sorting, prefer Merge Sort or Quick Sort;  offer better efficiency.
 - These basic algorithms are excellent for learning and understanding core programming concepts.
-Would you like this compiled into a printable format or expanded with Binary Search next?
+
 
 
